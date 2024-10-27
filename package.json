@@ -1,0 +1,29 @@
+{
+  "name": "express-startup",
+  "version": "1.0.0",
+  "description": "A simple startup of typescript express and mongodb, with eslint.",
+  "main": "index.js",
+  "repository": "https://github.com/HazemMeqdad/express-startup",
+  "author": "HazemMeqdad",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@eslint/js": "^9.13.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/express": "^5.0.0",
+    "eslint": "^9.13.0",
+    "husky": "^9.1.6",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  }
+}
